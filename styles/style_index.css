@@ -1,0 +1,90 @@
+﻿main {
+	  width: 724px;
+	  margin-top: 20px;
+	  margin-left: 150px;
+	  margin-bottom: 30px;
+	 }
+
+.urlImg {
+		width: 724px;
+		height:300px;
+		display:block;
+		background-image: url('../images/wine_index_img_bw.png');
+		}
+		
+.urlImg:hover {
+			  background-image: url('../images/wine_index_img_col.png');
+			  }
+
+main>p {
+	   text-align: justify;
+	   height: 400 px;
+	   }
+		
+h1 {
+	font-size: 14pt;
+   }
+   
+container {
+		   margin-left: 150px;
+		   display: block;
+		   }
+	
+container>img {
+			   margin-top: 0 px;
+			   margin-bottom: 0 px;
+			   }
+
+container>img:nth-child(2) {
+					        margin-left: 10px;
+					        margin-right: 10px;
+					       }
+					
+container>img:nth-child(3) {
+					       margin-right: 10px;
+					       }
+	
+container>containerInner   {
+					        width: 724px;
+					        display: inline-block;
+					        }	
+
+button {
+	    width: 140px;
+	    height: 25px;
+	    background: #666;
+	    border: none;
+	    outline: none;
+	    margin-bottom: 20px;
+	   }
+
+button a:link{
+		     text-decoration: none;
+		     color: #000;
+		     }
+			
+button:hover {
+			  opacity: 0.5;
+			  filter: alpha(opacity=40); /* For IE8 and earlier */
+			  color: #c00;
+			  text-decoration: none;
+			  }
+			
+button a:active {
+			    text-decoration: none;
+			    color: #fff;
+			    }
+
+button a:visited {
+			      text-decoration: none;
+			      color: #000;
+			      }
+ 
+containerInner>button:nth-child(2) {
+					                margin-left: 10px;
+					                margin-right: 10px;
+					               }
+					
+containerInner>button:nth-child(3) {
+					                margin-right: 10px;
+					               }  
